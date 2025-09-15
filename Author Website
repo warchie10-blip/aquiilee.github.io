@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquii Lee - Storyteller at the Edge</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .text-red-500 { color: #dc2626; }
+        .bg-red-600 { background-color: #b91c1c; }
+        .hover\:bg-red-700:hover { background-color: #991b1b; }
+        .border-red-600 { border-color: #b91c1c; }
+        .bg-red-900\/50 { background-color: rgba(127, 29, 29, 0.5); }
+        .text-red-300 { color: #fca5a5; }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-slate-900/95 backdrop-blur-md z-50 shadow-lg border-b border-red-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open text-red-500"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    <span class="text-xl font-bold text-white">Aquii Lee</span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-slate-300 hover:text-red-500 transition-colors">Home</a>
+                    <a href="#about" class="text-slate-300 hover:text-red-500 transition-colors">About</a>
+                    <a href="#projects" class="text-slate-300 hover:text-red-500 transition-colors">Projects</a>
+                    <a href="#vision" class="text-slate-300 hover:text-red-500 transition-colors">Vision</a>
+                    <a href="#contact" class="text-slate-300 hover:text-red-500 transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-20 pb-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row items-center justify-between">
+                <div class="lg:w-1/2 mb-12 lg:mb-0">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+                        <span class="text-red-500">Aquii Lee</span>
+                        <br />
+                        Storyteller at the Edge
+                    </h1>
+                    <p class="text-xl text-slate-300 mb-8 leading-relaxed">
+                        Male writer and creative strategist building cross-genre fiction that challenges the boundaries between tradition and rebellion.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#projects" class="bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors text-center">
+                            Explore Projects
+                        </a>
+                        <a href="#contact" class="border-2 border-red-600 text-red-400 px-8 py-3 rounded-lg font-semibold hover:bg-red-600 hover:text-white transition-colors text-center">
+                            Connect
+                        </a>
+                    </div>
+                    
+                    <div class="mt-8 bg-slate-800/50 p-4 rounded-lg border border-slate-700">
+                        <p class="text-sm text-slate-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle inline mr-2 text-red-500"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+                            <strong>Current Focus:</strong> Finalizing "The Closing Blood Tear" for 2025 release.
+                        </p>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 flex justify-center">
+                    <div class="relative">
+                        <img 
+                            src="https://placehold.co/400x500/1f2937/ffffff?text=Aquii+Lee" 
+                            alt="Aquii Lee" 
+                            class="rounded-2xl shadow-2xl border-4 border-red-500"
+                        />
+                        <div class="absolute -bottom-6 -right-6 bg-slate-800 p-4 rounded-lg shadow-lg border border-slate-600">
+                            <div class="text-2xl font-bold text-red-500">2</div>
+                            <div class="text-sm text-slate-300">Major Projects</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-slate-800/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">The Author</h2>
+                <p class="text-xl text-slate-300 max-w-3xl mx-auto">
+                    Writer and creative strategist building stories at the intersection of tradition and rebellion.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <p class="text-lg text-slate-300 mb-6 leading-relaxed">
+                        Aquii Lee is a male writer and creative strategist serving as Managing Owner of A Lee Creations. 
+                        He crafts cross-genre fiction that blends cinematic tension, global themes, and cultural legacy, 
+                        spanning from urban crime fiction thrillers to deep biblical fiction.
+                    </p>
+                    <p class="text-lg text-slate-300 mb-6 leading-relaxed">
+                        His work explores what people fight for, what they bury, and what they become—stories that challenge 
+                        boundaries while entertaining readers worldwide. With a strategic approach to narrative development, 
+                        each project is meticulously crafted to resonate across cultures.
+                    </p>
+                    <p class="text-lg text-slate-300 leading-relaxed">
+                        As a storyteller at the edge, Aquii's mission is to create fiction that doesn't just entertain, 
+                        but provokes thought about the complex forces that shape human identity and society.
+                    </p>
+                </div>
+                <div class="space-y-6">
+                    <div class="bg-gradient-to-r from-slate-700 to-slate-800 p-6 rounded-xl border border-slate-600">
+                        <h3 class="text-xl font-bold text-red-500 mb-2">Creative Identity</h3>
+                        <p class="text-slate-300">Male Writer & Creative Strategist</p>
+                        <p class="text-slate-300">Managing Owner, A Lee Creations</p>
+                    </div>
+                    <div class="bg-gradient-to-r from-red-900/50 to-slate-800 p-6 rounded-xl border border-slate-600">
+                        <h3 class="text-xl font-bold text-red-500 mb-2">Genres</h3>
+                        <p class="text-slate-300">• Urban Crime Fiction</p>
+                        <p class="text-slate-300">• Yakuza Fiction</p>
+                        <p class="text-slate-300">• Biblical Fiction</p>
+                        <p class="text-slate-300">• Cross-Genre Narratives</p>
+                    </div>
+                    <div class="bg-gradient-to-r from-red-900/50 to-slate-800 p-6 rounded-xl border border-slate-600">
+                        <h3 class="text-xl font-bold text-red-500 mb-2">Mission</h3>
+                        <p class="text-slate-300">To entertain readers worldwide with stories that challenge the boundaries between tradition and rebellion.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gradient-to-br from-slate-900 to-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Current Projects</h2>
+                <p class="text-xl text-slate-300 max-w-3xl mx-auto">
+                    Exploring what people fight for, what they bury, and what they become.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-slate-800 rounded-xl shadow-lg overflow-hidden hover:shadow-red-500/20 transition-shadow duration-300 border border-slate-700">
+                    <img 
+                        src="https://placehold.co/300x450/dc2626/ffffff?text=The+Closing+Blood+Tear" 
+                        alt="The Closing Blood Tear"
+                        class="w-full h-80 object-cover"
+                    />
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-bold text-white">The Closing Blood Tear</h3>
+                            <span class="bg-green-900 text-green-300 px-2 py-1 rounded-full text-xs font-semibold">
+                                In Final Editing
+                            </span>
+                        </div>
+                        <p class="text-red-500 mb-3 text-sm">Crime/Yakuza Fiction</p>
+                        <p class="text-slate-300 mb-4 leading-relaxed">A gripping tale of loyalty and betrayal within the Tokyo underworld, where ancient codes clash with modern ambition.</p>
+                        <div class="pt-4 border-t border-slate-700">
+                            <p class="text-sm text-slate-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target inline mr-2 text-red-500"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                                Exploring: Loyalty, betrayal, and the weight of legacy
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-800 rounded-xl shadow-lg overflow-hidden hover:shadow-red-500/20 transition-shadow duration-300 border border-slate-700">
+                    <img 
+                        src="https://placehold.co/300x450/1f2937/ffffff?text=The+Hand+of+Hirohito" 
+                        alt="The Hand of Hirohito"
+                        class="w-full h-80 object-cover"
+                    />
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-bold text-white">The Hand of Hirohito</h3>
+                            <span class="bg-blue-900 text-blue-300 px-2 py-1 rounded-full text-xs font-semibold">
+                                Writing Phase
+                            </span>
+                        </div>
+                        <p class="text-red-500 mb-3 text-sm">Crime/Yakuza Fiction</p>
+                        <p class="text-slate-300 mb-4 leading-relaxed">When a stolen imperial artifact surfaces in modern-day Osaka, a disgraced detective must navigate a web of historical secrets and organized crime.</p>
+                        <div class="pt-4 border-t border-slate-700">
+                            <p class="text-sm text-slate-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target inline mr-2 text-red-500"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                                Exploring: Power, corruption, and redemption
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12 bg-slate-800/50 p-8 rounded-xl border border-slate-700">
+                <h3 class="text-2xl font-bold text-white mb-4">The Creative Philosophy</h3>
+                <div class="grid md:grid-cols-3 gap-6 text-center">
+                    <div class="p-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield text-red-500 mx-auto mb-2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        <h4 class="font-semibold text-red-500 mb-2">Tradition</h4>
+                        <p class="text-slate-300 text-sm">Respecting cultural legacy and historical depth in storytelling</p>
+                    </div>
+                    <div class="p-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap text-red-500 mx-auto mb-2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                        <h4 class="font-semibold text-red-500 mb-2">Rebellion</h4>
+                        <p class="text-slate-300 text-sm">Challenging boundaries with innovative cross-genre narratives</p>
+                    </div>
+                    <div class="p-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target text-red-500 mx-auto mb-2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                        <h4 class="font-semibold text-red-500 mb-2">Impact</h4>
+                        <p class="text-slate-300 text-sm">Creating stories that entertain and provoke thought worldwide</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section id="vision" class="py-20 bg-slate-800/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Creative Vision</h2>
+                <p class="text-xl text-slate-300 max-w-3xl mx-auto">
+                    Building stories at the intersection of cinematic tension, global themes, and cultural legacy.
+                </p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-slate-800 rounded-xl p-8 border border-slate-700">
+                    <h3 class="text-2xl font-bold text-red-500 mb-6 text-center">What My Work Explores</h3>
+                    
+                    <div class="space-y-8">
+                        <div class="flex flex-col md:flex-row items-start">
+                            <div class="md:w-1/4 text-center md:text-left mb-4 md:mb-0">
+                                <div class="bg-red-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto md:mx-0">
+                                    1
+                                </div>
+                                <div class="mt-2 text-sm font-semibold text-red-500">Fight For</div>
+                            </div>
+                            <div class="md:w-3/4 md:pl-6">
+                                <div class="bg-slate-700 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-white mb-2">What People Fight For</h4>
+                                    <p class="text-slate-300">My stories examine the motivations behind human conflict—whether driven by honor, survival, power, or redemption. In both the criminal underworld and spiritual realms, characters confront what's worth risking everything for.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex flex-col md:flex-row items-start">
+                            <div class="md:w-1/4 text-center md:text-left mb-4 md:mb-0">
+                                <div class="bg-red-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto md:mx-0">
+                                    2
+                                </div>
+                                <div class="mt-2 text-sm font-semibold text-red-500">Bury</div>
+                            </div>
+                            <div class="md:w-3/4 md:pl-6">
+                                <div class="bg-slate-700 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-white mb-2">What They Bury</h4>
+                                    <p class="text-slate-300">Secrets, shame, and trauma shape my characters' journeys. From Yakuza rituals to biblical reckonings, I explore what people hide and the consequences when those truths surface.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex flex-col md:flex-row items-start">
+                            <div class="md:w-1/4 text-center md:text-left mb-4 md:mb-0">
+                                <div class="bg-red-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto md:mx-0">
+                                    3
+                                </div>
+                                <div class="mt-2 text-sm font-semibold text-red-500">Become</div>
+                            </div>
+                            <div class="md:w-3/4 md:pl-6">
+                                <div class="bg-slate-700 p-4 rounded-lg">
+                                    <h4 class="font-semibold text-white mb-2">What They Become</h4>
+                                    <p class="text-slate-300">Transformation is central to my work. Through extreme circumstances, characters are forged into something new—sometimes stronger, sometimes broken, always changed by their choices and struggles.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 bg-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Connect With the Creator</h2>
+                <p class="text-xl text-slate-300 max-w-3xl mx-auto">
+                    Join the journey as A Lee Creations develops boundary-pushing fiction.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-bold text-white mb-6">Get in Touch</h3>
+                    <p class="text-slate-300 mb-6 leading-relaxed">
+                        I'm currently focused on completing "The Closing Blood Tear" and developing "The Hand of Hirohito." 
+                        Connect to stay informed about release dates and behind-the-scenes insights.
+                    </p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail text-red-500 mr-3"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            <span class="text-slate-300">discover@aleecreations.org</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-800 p-8 rounded-xl border border-slate-700">
+                    <h3 class="text-2xl font-bold text-white mb-6">Stay Informed</h3>
+                    <p class="text-slate-300 mb-6">Be notified when new projects are announced and released.</p>
+                    
+                    <form class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-slate-300 mb-1">Name</label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                class="w-full px-4 py-2 border border-slate-600 rounded-lg bg-slate-700 text-white placeholder-slate-400"
+                                placeholder="Your name"
+                            />
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-slate-300 mb-1">Email</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                class="w-full px-4 py-2 border border-slate-600 rounded-lg bg-slate-700 text-white placeholder-slate-400"
+                                placeholder="your.email@example.com"
+                            />
+                        </div>
+                        <button 
+                            type="submit"
+                            class="w-full bg-red-600 text-white py-3 rounded-lg hover:bg-red-700 transition-colors font-semibold"
+                        >
+                            Join the Creative Circle
+                        </button>
+                    </form>
+                    
+                    <div class="mt-4 bg-slate-700/50 p-4 rounded-lg border border-slate-600">
+                        <p class="text-sm text-slate-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield inline mr-2 text-red-500"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            <strong>Respect for Privacy:</strong> I value your trust and will only contact you with significant updates about my work.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-white py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center space-x-2 mb-4 md:mb-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open text-red-500"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    <span class="text-lg font-bold">A Lee Creations</span>
+                </div>
+                
+                <div class="text-center md:text-right">
+                    <p class="text-slate-400">© 2025 A Lee Creations LLC. All rights reserved.</p>
+                    <p class="text-slate-500 text-sm mt-1">discover@aleecreations.org | Male Writer & Creative Strategist</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
